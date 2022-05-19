@@ -66,7 +66,7 @@ class TeXListingsStyle(Style):
         #Literal.String.Interpol:        '#d14',
         #Literal.String.Other:           '#d14',
         #Literal.String.Regex:           '#009926',
-        #Literal.String.Single:          '#d14',
+        Literal.String.Single:          '#0000ff',
         #Literal.String.Symbol:          '#990073',
         #Literal.String:                 '#d14',
         #Name.Attribute:                 '#008080',
