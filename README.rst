@@ -6,7 +6,7 @@ Using PyPI and pip
 
 ::
 
-    $ (sudo) pip install pygments-style-github
+    $ (sudo) pip install pygments-style-texlistings
 
 
 Manual
@@ -14,8 +14,8 @@ Manual
 
 ::
 
-    $ git clone git://github.com/hugomaiavieira/pygments-style-github.git
-    $ cd pygments-style-github
+    $ git clone git://github.com/kmuto/pygments-style-texlistings.git
+    $ cd pygments-style-texlistings
     $ (sudo) python setup.py install
 
 
@@ -25,8 +25,8 @@ Usage example
 ::
 
     >>> from pygments.formatters import HtmlFormatter
-    >>> HtmlFormatter(style='github').style
-    <class 'pygments_style_github.GithubStyle'>
+    >>> HtmlFormatter(style='texlistings').style
+    <class 'pygments_style_github.TeXListingsStyle'>
 
 
 Export the style as CSS
@@ -34,7 +34,7 @@ Export the style as CSS
 
 ::
 
-    pygmentize -S github -f html > github.css
+    pygmentize -S texlistings -f html > texlistings.css
 
 
 Using in LaTeX documents
@@ -72,6 +72,6 @@ of pygment styles.
 Thanks
 ------
 
-This package is based upon the pygments-style-railscasts_ of Marcus Fredriksson.
+This package is based upon the pygments-style-github of Hugo Maia Vieira.
 
-.. _pygments-style-railscasts: http://github.com/DrMegahertz/pygments-style-railscasts
+.. _pygments-style-github: https://github.com/hugomaiavieira/pygments-style-github

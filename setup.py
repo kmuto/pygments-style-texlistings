@@ -3,23 +3,23 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='pygments-style-github',
-    version='0.4',
-    description='Pygments version of the github theme.',
+    name='pygments-style-texlistings',
+    version='0.1',
+    description='Pygments version of the TeX listings theme.',
     long_description=open('README.rst').read(),
-    keywords='pygments style github',
+    keywords='pygments style tex listings',
     license='BSD',
 
-    author='Hugo Maia Vieira',
-    author_email='hugomaiavieira@gmail.com',
+    author='Kenshi Muto',
+    author_email='kmuto@kmuto.jp',
 
-    url='https://github.com/hugomaiavieira/pygments-style-github',
+    url='httpss://github.com/kmuto/pygments-style-texlistings',
 
     packages=find_packages(),
     install_requires=['pygments >= 1.4'],
 
     entry_points='''[pygments.styles]
-                    github=pygments_style_github:GithubStyle''',
+                    texlistings=pygments_style_texlistings:TeXListingsStyle''',
 
     classifiers=[
         'Development Status :: 4 - Beta',
