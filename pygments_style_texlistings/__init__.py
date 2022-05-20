@@ -70,7 +70,7 @@ class TeXListingsStyle(Style):
         #Literal.String.Symbol:          '#990073',
         Literal.String:                 '#0000ff',
         #Name.Attribute:                 '#008080',
-        #Name.Builtin.Pseudo:            '#999999',
+        Name.Builtin.Pseudo:            '#000000',
         Name.Builtin:                   '#ec008c',
         #Name.Class:                     'bold #445588',
         #Name.Constant:                  '#008080',
