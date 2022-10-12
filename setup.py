@@ -5,7 +5,7 @@ from setuptools import setup, find_packages
 setup(
     name='pygments-style-texlistings',
     version='0.1',
-    description='Pygments version of the TeX listings theme.',
+    description='Pygments version of the TeX listings theme. VS Code marker theme',
     long_description=open('README.rst').read(),
     keywords='pygments style tex listings',
     license='BSD',
@@ -19,7 +19,8 @@ setup(
     install_requires=['pygments >= 1.4'],
 
     entry_points='''[pygments.styles]
-                    texlistings=pygments_style_texlistings:TeXListingsStyle''',
+                    texlistings=pygments_style_texlistings:TeXListingsStyle
+                    vsmarker=pygments_style_texlistings:VSMarkerStyle''',
 
     classifiers=[
         'Development Status :: 4 - Beta',

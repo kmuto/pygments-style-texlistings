@@ -26,7 +26,11 @@ Usage example
 
     >>> from pygments.formatters import HtmlFormatter
     >>> HtmlFormatter(style='texlistings').style
-    <class 'pygments_style_github.TeXListingsStyle'>
+    <class 'pygments_style_texlistings.TeXListingsStyle'>
+
+    >>> from pygments.formatters import HtmlFormatter
+    >>> HtmlFormatter(style='vsmarker').style
+    <class 'pygments_style_texlistings.VSMarkerStyle'>
 
 
 Export the style as CSS
@@ -35,6 +39,8 @@ Export the style as CSS
 ::
 
     pygmentize -S texlistings -f html > texlistings.css
+
+    pygmentize -S vsmarker -f html > vsmarker.css
 
 
 Using in LaTeX documents
