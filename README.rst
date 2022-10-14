@@ -32,6 +32,14 @@ Usage example
     >>> HtmlFormatter(style='vsmarker').style
     <class 'pygments_style_texlistings.VSMarkerStyle'>
 
+    >>> from pygments.formatters import HtmlFormatter
+    >>> HtmlFormatter(style='geditsh').style
+    <class 'pygments_style_texlistings.Gedit_sh_Style'>
+
+    >>> from pygments.formatters import HtmlFormatter
+    >>> HtmlFormatter(style='googlecolab').style
+    <class 'pygments_style_texlistings.GoogleColabStyle'>
+
 
 Export the style as CSS
 ========================
@@ -41,6 +49,10 @@ Export the style as CSS
     pygmentize -S texlistings -f html > texlistings.css
 
     pygmentize -S vsmarker -f html > vsmarker.css
+
+    pygmentize -S geditsh -f html > geditsh.css
+
+    pygmentize -S googlecolab -f html > googlecolab.css
 
 
 Using in LaTeX documents
