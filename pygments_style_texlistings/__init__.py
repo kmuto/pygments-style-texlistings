@@ -290,6 +290,7 @@ class GoogleColabStyle(Style):
         #Literal.String.Single:          '#0000ff',
         #Literal.String.Symbol:          '#990073',
         Literal.String:                 '#a41818',
+        Literal.String.Affix:           '#0000ff',
         #Name.Attribute:                 '#008080',
         #Name.Builtin.Pseudo:            '#000000',
         Name.Builtin:                   '#7b6029',
