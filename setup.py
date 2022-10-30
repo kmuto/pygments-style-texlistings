@@ -4,7 +4,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='pygments-style-texlistings',
-    version='0.1',
+    version='0.2',
     description='Pygments version of the TeX listings theme, VS Code marker theme, Google Colab theme, and gedit theme.',
     long_description=open('README.rst').read(),
     keywords='pygments style tex listings',
